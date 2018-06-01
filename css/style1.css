@@ -1,0 +1,26 @@
+body,h1,h4,p,dl,dt,dd{margin: 0;padding:0;color: #333;}
+div{
+    width: 640px;
+    margin: 20px;
+    padding-left:10px;
+    border: 1px solid #ccc;}
+h1{
+    margin:25px 0;
+    font: bold 32px "微软雅黑";    
+    }
+dt{
+    font: bold 24px "微软雅黑";
+    margin-bottom: 25px;
+    }
+p{
+    font: normal 16px "微软雅黑";
+    margin-bottom: 25px;
+}
+span,h4{font-weight: bold;}
+.last{margin-bottom: 10px;}
+span{margin-right: 10px;}
+span+span{margin-left: 30px;}
+a{
+    margin-right:35px;
+    color: #00f;
+}

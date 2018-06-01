@@ -1,0 +1,30 @@
+body,h1,h4,p,dl,dt,dd{margin: 0;padding:0;color: #333;}
+h1{
+    float: left;
+    width: 190px;
+    height: 760px;
+    box-sizing: border-box;
+    background-color: #65a5fa;
+    padding:60px;
+    font: 600 34px "微软雅黑";
+    color: #fff;
+    }
+dl{
+    margin:190px;
+    padding: 20px;
+    }
+dt{
+    font:600 24px "微软雅黑";
+    margin-bottom: 25px;
+}
+p{
+    font: normal 16px "微软雅黑";
+    margin-bottom: 20px;
+}
+h4,span{font: 700 16px "微软雅黑";}
+span{margin-right: 10px;}
+span+span{margin-left: 30px;}
+a{
+    margin-right:35px;
+    color: #00f;
+}
