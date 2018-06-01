@@ -1,3 +1,3 @@
 # DAY5
 day 5
-[demo](https://github.com/jiang-hj/DAY5/index.html)
+[demo](https://jiang-hj.github.io/DAY5/index.html)
