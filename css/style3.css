@@ -28,6 +28,9 @@ dd {
     text-indent:1em;   
     overflow: hidden;
     border-top: 2px solid #d6d6d6;
+    overflow:hidden;
+    line-height:3;
+    text-indent:1em;
     }
 
 h4,
