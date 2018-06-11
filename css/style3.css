@@ -1,48 +1,50 @@
 body,h1,h4,p,dl,dt,dd{margin: 0;padding:0;color: #333;}
 body{margin: 10px;}
-h1{
+h1 {
     box-sizing: border-box;
     background-color: #858585;
     font: 600 34px "微软雅黑";
     padding: 25px;
     color: #fff;
     }
-dl{    
+
+dl {    
     border: 2px solid #d6d6d6;
     border-top:none;
 }
-dl:after{
-    content:"";
-    height:0;
-    visibility:hidden;
-    display:block;
-    clear:both;
-  }
-dt{
+
+dt {
     float:left;
-    
-    box-sizing: border-box;
     height: 160px;
-    width: 10%;
+    width: 170px;
     background-color: #d6d6d6;
-    border-top: 2px solid #d6d6d6;
-    border-bottom: 2px solid #fff;
-    
     font:600 24px/160px "微软雅黑";
     text-align: center;
     }
-dd{
-    float:left;
-    box-sizing: border-box;
+
+dd {    
     height: 160px;
-    width: 90%;
-    padding: 10px;
+    line-height: 3;
+    text-indent:1em;   
+    overflow: hidden;
     border-top: 2px solid #d6d6d6;
     }
-h4,p{display: inline;}
-span{margin-right: 10px;}
-span+span{margin-left: 35px;}
+
+h4,
+p {
+    display: inline;}
+
+span {
+    margin-right: 10px;}
+
+span+span {
+    margin-left: 35px;}
+
 a{
     margin-right:30px;
     color: #00f;
+}
+
+#fact {
+    display: none;
 }
