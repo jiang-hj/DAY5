@@ -29,3 +29,7 @@ a{
     margin-right:35px;
     color: #00f;
 }
+
+#fact {
+    display: none;
+}
